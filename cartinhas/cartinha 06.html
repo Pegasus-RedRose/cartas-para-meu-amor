@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Carta Leo 06</title>
+
+<!-- Fontes do Google -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Special+Elite&family=MedievalSharp&display=swap" rel="stylesheet">
+
+<!-- CSS embutido -->
+<style>
+:root{
+  --paper: #ecdfb8;
+  --paper-dark: #ddc99a;
+  --ink: #2b2620;
+  --shadow: rgba(90, 70, 30, 0.28);
+}
+
+*{
+  box-sizing: border-box;
+}
+
+html, body{
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+}
+
+body{
+  font-family: 'Special Elite', 'Courier New', monospace;
+  color: var(--ink);
+  background: linear-gradient(160deg, #f7efdc 0%, #f1e7cd 45%, #ecdfc0 100%);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 6vh 20px 8vh;
+  min-height: 100vh;
+}
+
+.sheet-wrap{
+  width: 100%;
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.letter{
+  position: relative;
+  width: 100%;
+  background:
+    radial-gradient(ellipse at 20% 10%, rgba(255,250,220,0.4), transparent 45%),
+    radial-gradient(ellipse at 85% 90%, rgba(150,120,60,0.18), transparent 50%),
+    linear-gradient(var(--paper), var(--paper-dark));
+  padding: 8vw 8vw;
+  box-shadow:
+    0 8px 20px var(--shadow),
+    0 20px 45px rgba(90,70,30,0.18);
+  border-radius: 2px;
+  line-height: 1.65;
+  font-size: 16.5px;
+  min-height: 52vh;
+}
+
+.letter::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse at center, transparent 55%, rgba(120,90,40,0.15) 100%),
+    repeating-linear-gradient(0deg, rgba(0,0,0,0.012) 0px, rgba(0,0,0,0.012) 1px, transparent 1px, transparent 2px);
+  pointer-events: none;
+  mix-blend-mode: multiply;
+}
+
+.letter::after{
+  content: "";
+  position: absolute;
+  inset: 0;
+  box-shadow: inset 0 0 45px rgba(140,110,50,0.22), inset 0 0 10px rgba(0,0,0,0.12);
+  pointer-events: none;
+}
+
+.letter-title{
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  font-family: 'MedievalSharp', 'Special Elite', cursive;
+  font-size: 1.7em;
+  letter-spacing: 1px;
+  margin: 0.3em 0 0.8em;
+  color: #3a2e1a;
+}
+
+.dropcap{
+  float: left;
+  font-family: 'MedievalSharp', 'Special Elite', cursive;
+  font-size: 3.6em;
+  line-height: 0.78;
+  padding: 0.02em 0.08em 0 0;
+  color: #3a2e1a;
+}
+
+.dropcap-p{
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.dropcap-p::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#page-content{
+  position: relative;
+  z-index: 1;
+  min-height: 34vh;
+  opacity: 1;
+  transition: opacity 0.28s ease;
+}
+
+p{
+  margin: 0 0 1.2em;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+/* Configuração geral das cantoneiras */
+.corner {
+  position: absolute;
+  width: 150px;
+  height: auto;
+  pointer-events: none;
+  z-index: 2;
+}
+
+/* Canto Superior Esquerdo */
+.top-left {
+  top: 12px;
+  left: 12px;
+}
+
+/* Canto Superior Direito */
+.top-right {
+  top: 12px;
+  right: 12px;
+  transform: scaleX(-1);
+}
+
+/* Canto Inferior Esquerdo */
+.bottom-left {
+  bottom: 12px;
+  left: 12px;
+  transform: scaleY(-1);
+}
+
+/* Canto Inferior Direito */
+.bottom-right {
+  bottom: 12px;
+  right: 12px;
+  transform: scale(-1, -1);
+}
+
+@media (max-width: 560px){
+  .letter{
+    font-size: 15px;
+    padding: 12vw 6vw;
+  }
+  .letter-title{
+    font-size: 1.4em;
+  }
+  .dropcap{
+    font-size: 2.8em;
+  }
+  .corner {
+    width: 65px;
+  }
+}
+</style>
+</head>
+<body>
+
+  <div class="sheet-wrap">
+    <div class="letter">
+      <!-- Cantoneiras aplicadas nos 4 cantos -->
+      <img src="canto00.png" class="corner top-left" alt="Cantoneira">
+      <img src="canto00.png" class="corner top-right" alt="Cantoneira">
+      <img src="canto00.png" class="corner bottom-left" alt="Cantoneira">
+      <img src="canto00.png" class="corner bottom-right" alt="Cantoneira">
+
+      <h1 class="letter-title">Carta Leo 06</h1>
+
+      <div id="page-content">
+        <p class="dropcap-p"><span class="dropcap">V</span>oce ta me deixando doida, vou te enlouquecer de volta qualquer hora dessas. inclusive, quando eu disse que considero o que as pessoas pensam entediante nao sei se ficou claro, mas muita gente tenta impor umas expectativas irreais pro bem ou pro mal e tals enfim, voltemos ao importante piranha, ainda to com raiva, mas minha amiga disse que alem de amor e raiva andar junto era um otimo tempero (eu entendi? nao ao certo mas vou levar como um conselho)</p>
+
+        <p>Às vezes só queria ser normal,  sabe, Do outro lado também existem leis da física e regras, e dá pra ler essas probabilidades via análise. Sempre me perguntei como posso ser péssima em matemática se sou boa em ler probabilidades dessas, e da pra usar isso na sinuca, cara, jogar sozinha é meu momento, dei cada tacada maravilhosa e nem pense besteira viu? rum .</p>
+
+        <p>Eu ia te dedicar uma poesia mas minha moral não permite (não é nada contra você dessa vez, mas se não for poesia feita a mão não quero te dar nenhuma, não tem o mesmo peso, mas tem essa música que eu tava ouvindo que me fez lembrar você, Arctic Monkeys t: “that the night are mainly mades to saying things that you can't say tomorrow day” tem uma uma outra parte tambem "Maybe I'm too busy being yours to fall for somebody new").</p>
+
+        <p>Eu tenho tantas dúvidas e perguntas pra te fazer, queria perguntar sobre cibersegurança, achei esse assunto fantástico, tipo, o quão foda deve ser você ver um ataque e analisar um espécime de estudo ao invés de se desesperar por ter o PC invadido? Isso me parece uma emoção interessante de se viver, vou inclusive fazer um teste.</p>
+
+        <p>Queria saber mais sobre o que tu gosta, tipo que cor você gosta e por quê. Eu amo roupas azul royal porque combina muito comigo e objetos eu amo roxo porque gostava de uvas quando era criança.</p>
+
+        <p>E pra tu que fica de gracinha, anjinho é um querido muito solícito (ele tá fazendo as coisas do projeto pra mim, ele é bonito e bom partido etc. na visao alheia, mas tu eu sei que vai botar fé em mim 100%, eu ajudei ele poucos meses atrás a comprar um presente pra namorada, ele não é de usar acessório e ainda assim usa o anel que costumava ser o de namoro no dedo do meio, sim do meio, e pelo que vi no tarot ele e a namorada que eu conheci uma vez pessoalmente inclusive, separaram por causa dele, não sei se foi gaia mesmo mas teve um rolo aí(o baralho disse ser gaia depois eu pergunto pra nao dar asa a esse satanas), a parte do rolo ainda não verifiquei no mundo humano e nem preciso, com esse fogo no rabo que tá, parecendo que quer me dar o caneco não duvido de nada, mas tô presa com as cantadas dele porque só eu, ele e uma menina faz as coisas do projeto todo e ele é do back e a tech lead me deixou de mãos atadas, aí vez ou outra dou uma corda pra ver ele se enforcar e dar um fecho mas ele escapa) muito prestativo ele, o porém é os olhinhos bobos dele que vai acabar ficando sem. Ele viu meu terminal que fiz pra você por causa do bolo que tu me deu vagabunda, e depois que me liguei que ele tava soltando graça pra mim eu tirei por nao gostar de curiosos no meu presente e resolvi fazer uma conta pra testar minha imaginação.</p>
+
+        <p>Cria uma outra pra a gente conversar, próximo final de semana eu termino meu projetinho subo e a gente vai poder conversar por ele, conversar bem entre aspas, enfim, se sair tudo como planejo tu vai entender, ah é, tem provas, depois das provas eu posto o projetinho.</p>
+
+        <p>Queria ter debatido o Pegasus Project contigo, achei realmente fantástico mas ninguém entende de segurança pra eu conseguir aprender algo, a velocidade que eu tô captando também não me ajuda. Olhemos o lado positivo, consegui limpar a minha névoa mental.</p>
+
+        <p>Hmmm, eu tento me segurar mas tenho tanto a te perguntar. Eu não gosto de mostrar esse meu lado mais estrategista pra ninguém porque as pessoas começam a achar que o diabo, sou eu, ao mesmo tempo que ficam numa imensa vontade de me testar, mas tirando raros casos eu raramente faço alguma coisa, na verdade nunca preciso, meus guias sempre fazem algo antes que eu faça porque sabem que eu peso a mão e mesmo assim, conhecendo minha face mais vil, tu ainda insiste, querendo ou não tu sempre vê quando escrevo, não me acha estranha e por isso desgosta de mim?</p>
+
+        <p>Não acha estranho eu poder ver e falar com espíritos?</p>
+
+        <p>Inclusive, percebi que eu parar de usar masking fez line parar também, morder é um backlash da ansiedade às vezes.</p>
+
+        <p>Sabia? Eu fiquei impressionada com sua habilidade no xadrez, você começou a jogar antes de sequer tocar nas peças, xeque do pastor, um iniciante não sabe o nome de nenhuma jogada, das duas uma, ou era um jogador experiente ou foi ensinado por uma raposa velha. Meu pai me ensinou o xeque do pastor porque um velho de praça ensinou a ele antes, faz um tempo que queria dizer isso, eu sempre uso o xeque do pastor com quem é iniciante mas assim que ouvi você dizer o nome da jogada percebi que você jogava há tempos.</p>
+
+        <p>Eu não demonstro minhas observações porque se você olhar pra onde eu olho vai começar a entender o que vejo e planejo (meu sensei faz isso porque ele sabe que sou uma criança curiosa e despreocupada, ele é meu melhor amigo, gostamos do mesmo tipo de mulher, por razões diferentes mas o mesmo tipo, ele me ensinou um pouco de karatê e cuidava de mim porque sabia que eu tinha depressão e quando eu ficava sem dar prova de vida me levava pra algum lugar com o restante do hospício que eu chamo de amigos ou ficava me irritando via internet pra ver se eu tava viva e bem).</p>
+
+        <p>Inclusive, sua amiguinha tá meio cabisbaixa esses tempos, faça companhia pra ela se possível, acha que teria problema ela se juntar a mim e às meninas? Ela parece ter dificuldade de fazer amizade feminina e não queria acabar ativando nenhum gatilho de novo, ela parece que se daria bem com minha diva. Ela, minha diva, inclusive, não vai com tua cara, ia pedir a Gabriel para fazer uma ponte pra te perguntar se tu formatava meu PC por uma Coca e a mulher foi lá e não descansou até me ensinar a fazer sozinha “você não precisa daquele traste”, eu ri, não vou mentir.</p>
+
+        <p>Quem diria, tô dando aula praticamente sobre lógica, sinto que finalmente estou largando a fase fracassada e me tornando alguém, adoro ensinar. Inclusive até hoje não vi tu dizendo, além de besteira e charque, vossa senhoria gosta de comer o que? Porque tu é fresquinho que eu sei, sempre quis perguntar isso mas fico pensando o fecho que tu vai me dar ou vai mandar minha rainha me dar. Inclusive, tu ainda me paga por me fazer levar sermão dela, cuidado eim, vacilar eu lhe dou um beliscão.</p>
+
+        <p>gostasse do design do read me e afins? liberei a criatividade com o gemini, estou com saudades de te ver, nem pude dar uma espiada em voce sexta, minha amiga disse que te viu e tu parecia meio tristinho longe de mim, nao botei muita fe, fica triste nao princeso, seu sorriso é bonito, alegria meu gostoso, a liberdade artistica desse github aqui é perigosa, gostei disso hehe, agora posso me expressar mais livre e soltar cantadas pra voce via texto sem ficar quase morrendo ^-^</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
