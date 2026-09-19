@@ -44,4 +44,3 @@ Mas o código valida sem erros no W3C, o layout é responsivo e o sentimento é 
 
 ---
 
-### 🔄 Fluxo de Trabalho (Workflow)
