@@ -1,4 +1,4 @@
-# 💌 Repositório do Amor Platônico & Outras Anomalias em HTML
+# " eu quero roubar uns beijos seus, e eu sei que você tambem me quer. Façamos um acordo, se alguém perguntar eu e tu se encontrou por acaso no mangue beat e acabou ai. Apareça, o lugar ? veja a foto e venha. se recusar é gay.e digo mais, alem de gay vou passar a te chamar de medroso."
 > *"Escrevendo poesias em código para um rapaz que finge que nem vê."* 💘
 
 ---
