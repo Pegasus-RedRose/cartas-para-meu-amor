@@ -1,5 +1,6 @@
 # meu bom eu quero dormir, um encontro massa que vai ter eu e tu vai ser eu te usando de almofada e tirando um cochilo. profissional do vibe coding sou eu, fui checar documentaçao de segurança, fazer as correçoes do back com o copilot checar com o claud da outra conta se tava dando conflito, subir mobile, checar se dava conflito de novo, checar o numero do jwt e do encrypt key, acordei hj sem saber o que era um hash ao certo e terminei querendo nunca ter descoberto isso pq a aplicaçao ainda nao cobriu a lgpd toda mas isso é detalhe que geraria panico desnecessario, meia noite te conto nunca foi tao preciso kkkkkkkkkk. eu joguei esse codigo em tando canto pra saber se tava dando conflito e ainda me chega a pessoa pra me dizer que nao deu pra subir mobile
 # a pessoa me ve andando assim de boa na rua nem imagina a quanto de cafe eu to rodando, so queria por um keli linux no pendrive e nao tive tempo, vou chorar
+# boa noite leo, espero que durma, so dormir msm, pq bem so se fosse cmg bjs ( efeitos do sono e da falta de dormir de forma decente me dao efeitos colaterais ent ignore ortografia)
 > *"Escrevendo poesias em código para um rapaz que finge que nem vê."* 💘
 
 ---
