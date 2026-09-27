@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Carta Leo 07</title>
+
+<!-- Fontes do Google -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Special+Elite&family=MedievalSharp&display=swap" rel="stylesheet">
+
+<!-- CSS embutido -->
+<style>
+:root{
+  --paper: #ecdfb8;
+  --paper-dark: #ddc99a;
+  --ink: #2b2620;
+  --shadow: rgba(90, 70, 30, 0.28);
+}
+
+*{
+  box-sizing: border-box;
+}
+
+html, body{
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+}
+
+body{
+  font-family: 'Special Elite', 'Courier New', monospace;
+  color: var(--ink);
+  background: linear-gradient(160deg, #f7efdc 0%, #f1e7cd 45%, #ecdfc0 100%);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 6vh 20px 8vh;
+  min-height: 100vh;
+}
+
+.sheet-wrap{
+  width: 100%;
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.letter{
+  position: relative;
+  width: 100%;
+  background:
+    radial-gradient(ellipse at 20% 10%, rgba(255,250,220,0.4), transparent 45%),
+    radial-gradient(ellipse at 85% 90%, rgba(150,120,60,0.18), transparent 50%),
+    linear-gradient(var(--paper), var(--paper-dark));
+  padding: 8vw 8vw;
+  box-shadow:
+    0 8px 20px var(--shadow),
+    0 20px 45px rgba(90,70,30,0.18);
+  border-radius: 2px;
+  line-height: 1.65;
+  font-size: 16.5px;
+  min-height: 52vh;
+}
+
+.letter::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse at center, transparent 55%, rgba(120,90,40,0.15) 100%),
+    repeating-linear-gradient(0deg, rgba(0,0,0,0.012) 0px, rgba(0,0,0,0.012) 1px, transparent 1px, transparent 2px);
+  pointer-events: none;
+  mix-blend-mode: multiply;
+}
+
+.letter::after{
+  content: "";
+  position: absolute;
+  inset: 0;
+  box-shadow: inset 0 0 45px rgba(140,110,50,0.22), inset 0 0 10px rgba(0,0,0,0.12);
+  pointer-events: none;
+}
+
+.letter-title{
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  font-family: 'MedievalSharp', 'Special Elite', cursive;
+  font-size: 1.7em;
+  letter-spacing: 1px;
+  margin: 0.3em 0 0.8em;
+  color: #3a2e1a;
+}
+
+.dropcap{
+  float: left;
+  font-family: 'MedievalSharp', 'Special Elite', cursive;
+  font-size: 3.6em;
+  line-height: 0.78;
+  padding: 0.02em 0.08em 0 0;
+  color: #3a2e1a;
+}
+
+.dropcap-p{
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.dropcap-p::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#page-content{
+  position: relative;
+  z-index: 1;
+  min-height: 34vh;
+  opacity: 1;
+  transition: opacity 0.28s ease;
+}
+
+p{
+  margin: 0 0 1.2em;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+/* Configuração geral das cantoneiras */
+.corner {
+  position: absolute;
+  width: 150px;
+  height: auto;
+  pointer-events: none;
+  z-index: 2;
+}
+
+/* Canto Superior Esquerdo */
+.top-left {
+  top: 12px;
+  left: 12px;
+}
+
+/* Canto Superior Direito */
+.top-right {
+  top: 12px;
+  right: 12px;
+  transform: scaleX(-1);
+}
+
+/* Canto Inferior Esquerdo */
+.bottom-left {
+  bottom: 12px;
+  left: 12px;
+  transform: scaleY(-1);
+}
+
+/* Canto Inferior Direito */
+.bottom-right {
+  bottom: 12px;
+  right: 12px;
+  transform: scale(-1, -1);
+}
+
+@media (max-width: 560px){
+  .letter{
+    font-size: 15px;
+    padding: 12vw 6vw;
+  }
+  .letter-title{
+    font-size: 1.4em;
+  }
+  .dropcap{
+    font-size: 2.8em;
+  }
+  .corner {
+    width: 65px;
+  }
+}
+</style>
+</head>
+<body>
+
+  <div class="sheet-wrap">
+    <div class="letter">
+      <!-- Cantoneiras aplicadas nos 4 cantos -->
+      <img src="canto00.png" class="corner top-left" alt="Cantoneira">
+      <img src="canto00.png" class="corner top-right" alt="Cantoneira">
+      <img src="canto00.png" class="corner bottom-left" alt="Cantoneira">
+      <img src="canto00.png" class="corner bottom-right" alt="Cantoneira">
+
+      <h1 class="letter-title">Carta Leo 07</h1>
+
+      <div id="page-content">
+        <p class="dropcap-p"><span class="dropcap">E</span>
+        estou feliz, fui buscar a vassoura pra varrer meu cabelo que cortei ai esqueci que nao precisava olhei pra mainha ela me lançou o olhar de “o que foi?” e eu dei lingua pra ela e  ela pra mim e ficamos as duas rindo e vim limpar o cabelo que cortei, se antes eu tava um cavalheiro agora é que irei atrair as donzelas msm.</p>
+
+        <p>poxa, queria um beijinho seu, fico triste que nao consegui roubar nem sequer um abraço seu( estou sendo literal, você que fica numas má intenção, não nego que se você bobear vou lhe roubar mais que um ou dois beijos. vantagens de dizer isso aqui, não corro nenhum risco de levar um sermão e ainda te atento, só vi vantagens).</p>
+
+        <p>Tu é uma ofensa viva ao meu orgulho, como pode eu conquistar ate mulher com meu charme sem fazer esforço e tu resistir com tanta maestria( já nem fica bobinho por minha causa, lamentável), não gostei, que isso rapaz, eu sei que teus truques não funcionaram comigo tbm mas em minha defesa eu não me atraio por ficar com ninguém pelo corpo e sim pela personalidade, “procure alguém que tem os defeitos que voce consegue lidar” é o que penso, tu se encaixa nos problemas que adoro resolver, muito cheio dos charmes, inclusive, se voce me ver essa semana nao vou perder uma oportunidade de lhe atentar pelo encontro que eu queria ter pra finalmente lhe roubar um beijo e nao pude ter, so pra nao perder o costume, gay :</p>
+        <img src="gay.jpeg" alt="piranha pra nao perder o costume" width="100">
+
+        <p>parei 10 min no insta pra descontrair e me apareceu so coisa de cibersegurança e fiquei na magoa, tipo, eu vi um meme que o cara achou onde a mina morava pq a grama estava molhada, a posiçao do sol tbm e eu fiquei “crlh, achei que so eu descobria as coisas  assim”.</p>
+
+        <p>ai ja to na maldade pra testar um monte de ferramentas semana que vem, tipo, eu vi uma que pela frequencia de radio consegue ver as pessoas do ambiente ai ja pensei  ” nessa voce pega, o cara tenta invadir teu pc, tu invade a internet dele, ve se ele trabalha sozinho ou nao, se mora sozinho ou nao, da pra tirar uma quantidade de dados interessante” e ainda tem um uso pra saude, isso capta a frequencia cardiaca, da pra usar pra saber se a pessoa mentiu, se o tem problema cardiaco, se algo ou alguem deixou essa pessoa nervosa e fazer todo um conjunto investigativo a partir disso achar os dados que precisa e captura o hacker, ou no caso de saude da pra usar a frequencia cardiaca pra calcular o padrao em que a pessoa piora e associar o padrao do coraçao dela a rotina que a pessoa leva, o que achas? </p>
+
+        <p>ainda pensei na possibilidade disso virar ferramenta de investigaçao, pq por exemplo, internet de bairro, proteçao mediana, perfeita pra fornecer dados pra policia ou pra quem quiser as analises, no meu caso especifico eu consigo compensar minha falta de conhecimento usando o tarot pra direto onde eu preciso olhar ( tem limite pra ate onde posso compensar minha falta de conhecimento das ferramentas certas mas vou quebrar esse limite aos poucos) caramba cara, isso é tao divertido, mane lgpd, negocio é conectar dados, isso é divertido.</p>
+
+        <p>eu ia te mandar uma foto de “tomara que caia” pra tu ver meu cabelo cortado e te atentar mas achei essa mais interressante e to estudando, beijinhos medroso, quero ver se vai resistir as minhas tecnicas se ficar a sos comigo, vacila pra ver, ne so tu que tem tecnicas n hehe, tem muitas que quero testar em voce, duvido voce conseguir continuar resistindo princeso.</p>
+
+      
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
