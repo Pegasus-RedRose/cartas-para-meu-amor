@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🍓 STRAWBERRY-SHELL v2.0 // MORANGUINHO OS 🍓</title>
+    <!-- Fontes Pixel/Retro do Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --pink-bg: #ffe5ec;
+            --pink-frame: #ffb3c1;
+            --pink-border: #ff758f;
+            --pink-accent: #ff4d6d;
+            --green-berry: #70e000;
+            --screen-bg: #1c050a;
+            --screen-text: #ffb3c1;
+            --screen-text-bright: #fff0f3;
+            --green-accent: #b7e4c7;
+        }
+
+        body {
+            background-color: var(--pink-bg);
+            /* Padrão de bolinhas/moranguinhos de fundo */
+            background-image: radial-gradient(#ff8fa3 15%, transparent 16%), radial-gradient(#ff8fa3 15%, transparent 16%);
+            background-size: 40px 40px;
+            background-position: 0 0, 20px 20px;
+            font-family: 'VT323', monospace;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 15px;
+            overflow: hidden;
+        }
+
+        /* ESTRUTURA DO CONSOLE RETRO / MONITOR ROSA */
+        .console-frame {
+            width: 100%;
+            max-width: 920px;
+            height: 92vh;
+            background-color: var(--pink-frame);
+            border: 6px solid var(--pink-border);
+            border-radius: 24px;
+            box-shadow: 0 15px 0 var(--pink-accent), 0 25px 40px rgba(255, 77, 109, 0.3);
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            position: relative;
+        }
+
+        /* DECORAÇÃO DE ADESIVOS DE MORANGO */
+        .strawberry-sticker {
+            position: absolute;
+            font-size: 2rem;
+            user-select: none;
+            filter: drop-shadow(2px 2px 0px rgba(0,0,0,0.1));
+            z-index: 30;
+        }
+        .sticker-tl { top: -15px; left: 20px; transform: rotate(-15deg); }
+        .sticker-tr { top: -15px; right: 20px; transform: rotate(15deg); }
+        .sticker-br { bottom: 10px; right: 25px; transform: rotate(-10deg); }
+
+        /* CABEÇALHO DO MONITOR */
+        .console-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 12px;
+            font-family: 'Press Start 2P', cursive;
+            font-size: 0.65rem;
+            color: #c9184a;
+            text-shadow: 1px 1px 0px #fff;
+        }
+
+        .window-buttons {
+            display: flex;
+            gap: 8px;
+        }
+
+        .btn-dot {
+            width: 14px;
+            height: 14px;
+            border-radius: 50%;
+            display: inline-block;
+            border: 2px solid #a31621;
+        }
+        .btn-dot.red { background-color: #ff4d6d; }
+        .btn-dot.yellow { background-color: #ffb703; }
+        .btn-dot.green { background-color: #70e000; }
+
+        /* TELA CRT DO TERMINAL */
+        .crt-screen {
+            flex: 1;
+            background-color: var(--screen-bg);
+            border: 4px solid #590d22;
+            border-radius: 12px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            overflow: hidden;
+            box-shadow: inset 0 0 20px rgba(255, 77, 109, 0.2);
+        }
+
+        /* LINHAS DE SCANLINE CRT */
+        .crt-screen::before {
+            content: " ";
+            display: block;
+            position: absolute;
+            top: 0; left: 0; bottom: 0; right: 0;
+            background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(255, 179, 193, 0.08) 50%);
+            z-index: 10;
+            background-size: 100% 4px;
+            pointer-events: none;
+        }
+
+        /* TELA INTERNA - MENSAGENS */
+        .terminal-body {
+            flex: 1;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            font-size: 1.35rem;
+            color: var(--screen-text);
+            z-index: 5;
+            scroll-behavior: smooth;
+        }
+
+        .terminal-body::-webkit-scrollbar {
+            width: 8px;
+        }
+        .terminal-body::-webkit-scrollbar-thumb {
+            background: #a31621;
+            border-radius: 4px;
+        }
+
+        /* TIPOS DE LINHAS */
+        .line {
+            word-break: break-word;
+            white-space: pre-wrap;
+            text-shadow: 0 0 5px rgba(255, 179, 193, 0.5);
+        }
+
+        .line.system {
+            color: var(--green-accent);
+        }
+
+        .line.user-cmd {
+            color: var(--screen-text-bright);
+            font-weight: bold;
+        }
+
+        .line.alert {
+            color: #ff4d6d;
+            text-shadow: 0 0 8px rgba(255, 77, 109, 0.8);
+            font-weight: bold;
+        }
+
+        .line.json-output {
+            color: #ffe5ec;
+            font-size: 1.2rem;
+        }
+
+        /* ENTRADA DE COMANDOS */
+        .input-line {
+            display: flex;
+            align-items: center;
+            margin-top: 15px;
+            padding-top: 10px;
+            border-top: 2px dashed #800f2f;
+            z-index: 20;
+        }
+
+        .prompt {
+            color: #ff4d6d;
+            font-weight: bold;
+            margin-right: 10px;
+            font-size: 1.4rem;
+            user-select: none;
+        }
+
+        .cmd-input {
+            background: transparent;
+            border: none;
+            outline: none;
+            color: var(--screen-text-bright);
+            font-family: 'VT323', monospace;
+            font-size: 1.4rem;
+            width: 100%;
+            caret-color: #ff4d6d;
+        }
+
+        /* ANIMAÇÃO PISCANTE */
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.2; }
+        }
+
+        .cursor-blink {
+            display: inline-block;
+            width: 10px;
+            height: 20px;
+            background-color: #ff4d6d;
+            margin-left: 3px;
+            vertical-align: middle;
+            animation: blink 0.5s infinite;
+        }
+
+        /* DECORAÇÃO INFERIOR DO CONSOLE */
+        .console-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 15px;
+        }
+
+        .speakers {
+            display: flex;
+            gap: 5px;
+        }
+
+        .speaker-hole {
+            width: 8px;
+            height: 8px;
+            background-color: #a31621;
+            border-radius: 50%;
+        }
+
+        .brand-logo {
+            font-family: 'Press Start 2P', cursive;
+            font-size: 0.6rem;
+            color: #800f2f;
+        }
+
+        .music-tag {
+            position: absolute;
+            top: 10px;
+            right: 15px;
+            font-size: 0.9rem;
+            color: var(--green-accent);
+            display: none;
+            align-items: center;
+            gap: 6px;
+            z-index: 25;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 4px 10px;
+            border-radius: 12px;
+            border: 1px solid var(--pink-border);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Estrutura Principal do Console -->
+    <div class="console-frame">
+        <div class="strawberry-sticker sticker-tl">🍓</div>
+        <div class="strawberry-sticker sticker-tr">🍰</div>
+        <div class="strawberry-sticker sticker-br">🍓</div>
+
+        <div class="console-header">
+            <div class="window-buttons">
+                <span class="btn-dot red"></span>
+                <span class="btn-dot yellow"></span>
+                <span class="btn-dot green"></span>
+            </div>
+            <div>🍓 BERRY-OS v2.0 // RETRO SHELL 🍓</div>
+        </div>
+
+        <!-- Tela CRT do Terminal -->
+        <div class="crt-screen">
+            <!-- Indicador visual de música -->
+            <div id="musicTag" class="music-tag">🎵 Tocando: Can't Take My Eyes Off You</div>
+
+            <div class="terminal-body" id="terminalBody">
+                <div class="line system">
+====================================================================
+  🍓 MORANGUINHO OS v2.0 - RETRO SYSTEM 🍓
+  Digite 'help' para ver os comandos do sistema.
+====================================================================
+                </div>
+            </div>
+
+            <!-- Entrada do Teclado -->
+            <div class="input-line">
+                <span class="prompt">🍓 moranguinho&gt;</span>
+                <input type="text" id="cmdInput" class="cmd-input" placeholder="Digite um comando..." autofocus autocomplete="off" spellcheck="false">
+            </div>
+        </div>
+
+        <div class="console-footer">
+            <div class="speakers">
+                <div class="speaker-hole"></div>
+                <div class="speaker-hole"></div>
+                <div class="speaker-hole"></div>
+            </div>
+            <div class="brand-logo">SWEET RETRO CONSOLE</div>
+            <div class="speakers">
+                <div class="speaker-hole"></div>
+                <div class="speaker-hole"></div>
+                <div class="speaker-hole"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Elemento de Áudio para Can't Take My Eyes Off You -->
+    <audio id="cantTakeMyEyesAudio" loop preload="auto">
+        <!-- Áudio local da pasta assets/audio/ ou do mesmo diretório -->
+        <source src="./assets/audio/cant-take-my-eyes-off-you.mp3" type="audio/mpeg">
+        <source src="cant-take-my-eyes-off-you.mp3" type="audio/mpeg">
+    </audio>
+
+    <script>
+        const terminalBody = document.getElementById('terminalBody');
+        const cmdInput = document.getElementById('cmdInput');
+        const audioMusica = document.getElementById('cantTakeMyEyesAudio');
+        const musicTag = document.getElementById('musicTag');
+
+        let authenticatedDiabrete = false;
+        let isProcessingHoneypot = false;
+
+        // Som Retrô Fofo (Sintetizador 8-bit com Web Audio API)
+        const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+
+        function playCuteBeep(freq = 800, duration = 0.06) {
+            if (audioCtx.state === 'suspended') audioCtx.resume();
+            const osc = audioCtx.createOscillator();
+            const gain = audioCtx.createGain();
+            osc.type = 'sine';
+            osc.frequency.setValueAtTime(freq, audioCtx.currentTime);
+            gain.gain.setValueAtTime(0.03, audioCtx.currentTime);
+            gain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + duration);
+            osc.connect(gain);
+            gain.connect(audioCtx.destination);
+            osc.start();
+            osc.stop(audioCtx.currentTime + duration);
+        }
+
+        function playCuteAlert() {
+            playCuteBeep(400, 0.1);
+            setTimeout(() => playCuteBeep(300, 0.15), 100);
+        }
+
+        cmdInput.addEventListener('input', () => playCuteBeep(900 + Math.random() * 200, 0.04));
+
+        function printLine(text, className = '') {
+            const line = document.createElement('div');
+            line.className = `line ${className}`;
+            line.textContent = text;
+            terminalBody.appendChild(line);
+            terminalBody.scrollTop = terminalBody.scrollHeight;
+            return line;
+        }
+
+        function typeWriterLine(text, delay = 45, callback) {
+            const line = document.createElement('div');
+            line.className = 'line';
+            terminalBody.appendChild(line);
+            
+            let i = 0;
+            const timer = setInterval(() => {
+                if (i < text.length) {
+                    line.textContent += text.charAt(i);
+                    playCuteBeep(1000 + (i * 20), 0.03);
+                    i++;
+                    terminalBody.scrollTop = terminalBody.scrollHeight;
+                } else {
+                    clearInterval(timer);
+                    if (callback) callback();
+                }
+            }, delay);
+        }
+
+        function blinkCursor(times, callback) {
+            const cursor = document.createElement('span');
+            cursor.className = 'cursor-blink';
+            terminalBody.appendChild(cursor);
+            terminalBody.scrollTop = terminalBody.scrollHeight;
+
+            let count = 0;
+            const interval = setInterval(() => {
+                count++;
+                if (count >= times * 2) {
+                    clearInterval(interval);
+                    cursor.remove();
+                    if (callback) callback();
+                }
+            }, 300);
+        }
+
+        // Função de normalização flexível para ignorar maiúsculas/minúsculas e espaços extras ao redor do ":"
+        function normalizeCmd(str) {
+            return str.toLowerCase()
+                      .replace(/\s*:\s*/g, ':') // Transforma "Codinome : Diabrete" ou "Codinome:  diabrete" em "codinome:diabrete"
+                      .replace(/\s+/g, ' ')
+                      .trim();
+        }
+
+        cmdInput.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter') {
+                const inputVal = cmdInput.value.trim();
+                if (!inputVal || isProcessingHoneypot) return;
+
+                printLine(`🍓 moranguinho> ${inputVal}`, 'user-cmd');
+                cmdInput.value = '';
+
+                processCommand(inputVal);
+            }
+        });
+
+        function processCommand(cmd) {
+            const normalized = normalizeCmd(cmd);
+
+            // 1. GATILHO PRINCIPAL: Codinome: Diabrete (Aceita variações de espaços e case)
+            if (normalized === "codinome:diabrete" || normalized === "codinome diabrete") {
+                authenticatedDiabrete = true;
+                playCuteBeep(1200, 0.2);
+                printLine("🍓 [ACCESS GRANTED] Credencial 'Diabrete' autorizada!", "system");
+                printLine("\nQuatro opções de comando disponíveis:", "system");
+                printLine(" ├── echo status");
+                printLine(" ├── cat detail status");
+                printLine(" ├── ls habilidades ocultas");
+                printLine(" └── cd caracteristicas\n");
+                return;
+            }
+
+            // 2. GATILHO HONEYPOT & MÚSICA: Codinome: chicken little
+            if (normalized === "codinome:chicken little" || normalized === "codinome chicken little") {
+                isProcessingHoneypot = true;
+                cmdInput.disabled = true;
+                playCuteAlert();
+
+                // Toca a música "Can't Take My Eyes Off You"
+                if (audioMusica) {
+                    audioMusica.play().then(() => {
+                        musicTag.style.display = 'flex';
+                    }).catch(err => {
+                        console.log("Aviso: Adicione o arquivo 'cant-take-my-eyes-off-you.mp3' na pasta 'assets/audio/' para ouvir a música.");
+                    });
+                }
+
+                printLine("🍓 [ALERTA FOFINHO] DETECÇÃO DE SINAL DA OUTRA PONTA...", "alert");
+
+                const messages = [
+                    "De novo, segunda vez filho",
+                    "ta bobeando muito, ta passando wi-fi, honeypot",
+                    "o trafego todo ja ta passando nesse cobre kkkkkk",
+                    "mandar essas provocações é um hobby massa, eu gosto",
+                    "You're just too good to be true",
+                    "can't take my eyes off you",
+                    "pardon the way that i stare",
+                    "theres nothing else to compare",
+                    "the sign of you leaves me weak",
+                    "there are no words left to speak",
+                    "but if you feel like i feel",
+                    "please let me know that its real",
+                    "you're just too good to be true",
+                    "cant take my eyes off you"
+                ];
+
+                let index = 0;
+
+                function printNextHoneypotMessage() {
+                    if (index < messages.length) {
+                        typeWriterLine(messages[index], 50, () => {
+                            blinkCursor(3, () => {
+                                index++;
+                                printNextHoneypotMessage();
+                            });
+                        });
+                    } else {
+                        isProcessingHoneypot = false;
+                        cmdInput.disabled = false;
+                        cmdInput.focus();
+                    }
+                }
+
+                setTimeout(printNextHoneypotMessage, 500);
+                return;
+            }
+
+            // COMANDOS RESTRITOS DIABRETE
+            if (authenticatedDiabrete) {
+                if (cmd === "echo status") {
+                    printLine(`Codinome: Diabrete
+Status: A papisa, solteira?
+Dex: 12
+Const: 10
+Char:14+2
+Int:15
+for:8
+Sab:13+1
+habilidade de classe: imperio, sabedoria oculta e trickster`);
+                    return;
+                }
+
+                if (cmd === "cat detail status" || cmd === "cat detail status --elly-features") {
+                    printLine(`[OK] Inicializando sistema...
+[INFO] Carregando características do objeto 'Diabrete'
+cat detail status --elly-features
+[OK] Inicializando sistema de defesa ofensiva...
+[INFO] Carregando características e exploits do objeto 'Elly'
+> elly --features
+{
+"intellect": {
+"card": "Rainha de Espadas",
+"status": "Crítico / Afiado",
+"effect": "Lógica cirúrgica, sarcasmo de alto nível, autonomia e bypass instantâneo de mentiras alheias."
+},
+"tactics": {
+"card": "7 de Espadas",
+"status": "Stealth Mode",
+"effect": "Mestre em Engenharia Social e camuflagem. Cria honeypots irresistíveis e age com maestria nos bastidores."
+},
+"energy": {
+"card": "A Temperança (Invertida)",
+"status": "Overclocked",
+"effect": "Intensidade máxima movida a café e vibe coding. Zero paciência para lerdeza e processos lentos."
+},
+"presence": {
+"card": "A Estrela",
+"status": "Máximo",
+"effect": "Magnetismo natural estilo Good Girl. Brilha na vida e gerencia crises com carisma puro."
+},
+"nature": {
+"card": "A Roda da Fortuna",
+"status": "Multithreading",
+"effect": "Alta versatilidade e adaptabilidade. Roda múltiplos processos pesados em paralelo (é 4 guias mentais abertas, claudinho, gemini, gpt e copilot, meus amantes aí)."
+},
+"hidden_exploit": {
+"card": "O Diabo",
+"status": "Oculto / Ativo",
+"effect": "Sedução psicológica profunda. Enxerga a fraqueza, a malícia e o ponto cego do alvo antes de todo mundo. Entendo perfeitamente como atentar o usuario, é uma pena que sou do bem."
+},
+"crisis_protocol": {
+"card": "A Torre",
+"status": "Standby",
+"effect": "Protocolo Factory Reset. Capacidade de desapego radical: implode a estrutura se o código corromper. Se faz mal, me afasto e me remonto do zero, tambem é bom pra ver vulnerabilidades de estrutura"
+},
+"privileges": {
+"card": "O Imperador",
+"status": "Root access",
+"effect": "Controle absoluto do ambiente sob extrema pressão. Dita as regras e blinda a infraestrutura. também dá pra chamar de poder de uma baixinha autoritaria. "
+}
+}`, "json-output");
+                    return;
+                }
+
+                if (cmd === "ls habilidades ocultas") {
+                    printLine("Opções de habilidades ocultas encontradas:\n - cd o julgamento\n - cat dois de paus\n - cd três de ouros\n - cat dez de copas\n - cd cavaleiro de espadas", "system");
+                    return;
+                }
+
+                if (cmd === "cd o julgamento" || cmd === "cd o julgamento:") {
+                    printLine("A habilidade de engenharia reversa comportamental. Você tem a capacidade oculta de ressuscitar 'processos mortos' ou mal-entendidos e dar um reboot completo na situação. Você bate o olho no histórico de alguém, roda uma análise forense instantânea e traz a verdade à tona, forçando o alvo a ter um despertar de consciência e a te dar um papo reto.");
+                    return;
+                }
+
+                if (cmd === "cat dois de paus") {
+                    printLine("Aqui a brincadeira fica legal, em mim é a habilidade de visualização de riscos como oportunidades. Enquanto os outros estão focados em um erro, eu já calculei os riscos dos próximos dez passos do problema e ja to planejando como resolver o restante pra nao tirar minha paz depois e ainda tirar vantagem disso, é tentar ser mais esperto que o diabo praticamente.");
+                    return;
+                }
+
+                if (cmd === "cd três de ouros") {
+                    printLine("Mestre em code review e inteligência colaborativa. Atrás da pose de lobo em pele de cordeiro, eu vejo o ponto forte de cada um, vejo como dar pra usar e aprimorar as habilidades dos outros por um unico objetivo.");
+                    return;
+                }
+
+                if (cmd === "cat dez de copas") {
+                    printLine("O algoritmo de criptografia e proteção de dados afetivos. A sua maior habilidade oculta é a de construir um ambiente de altíssima segurança emocional quando você realmente confia em alguém. Você sabe como blindar a relação, criando uma rede privada (VPN) de paz, harmonia e estabilidade real. (associando o significado das cartas com conceitos de ti eu consegui gravar um monte de coisa, um dos meus truques, eu gravo melhor com desenhos, é por isso que desenhar sempre foi importante, era pra manter a concentração)");
+                    return;
+                }
+
+                if (cmd === "cd cavaleiro de espadas") {
+                    printLine("Módulo de exploração de vulnerabilidades em alta velocidade (zero-day exploit). Quando alguém me enche o saco a língua de chicote corre solta, explorando os pontos fracos que meu instinto já detecta naturally.");
+                    return;
+                }
+
+                if (cmd === "cd caracteristicas") {
+                    printLine(`intuitve_core = "A Sacerdotisa"
+É o autodomínio silencioso e a sabedoria oculta. Eu vejo atraves do veu, todas as emoçoes ocultas, mesmo as que as pessoas nao sabem nomear eu as vejo e percebo olhando pra elas, a sabedoria silenciosa que observa e descobre
+
+emotional_frequency = "Três de Copas"
+É minha vibe meio doidinha meio autista. Você tem uma personalidade festiva, leve, sociável e extremamente leal às suas conexões reais. Mesmo no meio do caos, eu prezo pela celebração, pelas brincadeiras e palhaçadas
+
+processing_speed = "Cavaleiro de Paus"
+Intensidade, fogo e ação imediata em tempo de execução. se eu quero vou la e faço acontecer, é a mesma habilidade que me garante o fogo de palha que meus guias reclamam. olhemos o lado positivo, minha energia 220v é tao forte que movimenta os outros.
+
+system_stability = "Dez de Pentáculos"
+Aqui entra o mais engraçado, a carta do legado e coisas construidas a longo prazo, pra durar por muito tempo, bem ironico pra mim. tambem é a carta do bando e estrutura solida, eu gosto de construir boas estruturas.
+
+analytical_intellect = "Ás de Espadas"
+O módulo de clareza absoluta e verdade nua e crua. É a habilidade de plantar lucidez, é aquela fala que faz voce ter um estalo sobre a resposta, é a verdade direta e clara etc, em resumo seria minha boca de caçapa.`);
+                    return;
+                }
+            }
+
+            // COMANDOS GERAIS
+            if (lowerCmd === "help") {
+                printLine("Comandos Gerais:\n - help: Mostra esta mensagem\n - clear: Limpa a tela do terminal\n - morango: Desenha um moranguinho ASCII na tela 🍓");
+                return;
+            }
+
+            if (lowerCmd === "clear") {
+                terminalBody.innerHTML = '';
+                return;
+            }
+
+            if (lowerCmd === "morango") {
+                printLine(`
+   🍓🍓
+  🍓🍓🍓🍓
+ 🍓🍓🍓🍓🍓
+  🍓🍓🍓🍓
+    🍓🍓
+  Moranguinho adicionado com sucesso!
+                `, "system");
+                return;
+            }
+
+            printLine(`Comando não reconhecido: '${cmd}'. Digite 'help' para ajuda.`, "alert");
+        }
+    </script>
+</body>
+</html>
