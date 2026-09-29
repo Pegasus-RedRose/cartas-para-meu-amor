@@ -1,8 +1,6 @@
-### buenos dias, boas provas pra tu, eu nao tenho prova hj pq é duas amanha entao provavel da gente nao se ver, quinta tambem n, mas olhemos o lado bom vou fazer prova contigo amanha, duas de uma vez 
-
-### eu sou aleatoria mas em minha defesa eu nao sei conversar e to sem tempo pra ler manhwa, ver anime, ate meu descanso ta produtivo(ai assuntos mais assim nao tem como), mas qualquer dia desses vou te explicar como funciona um perfume, quando eu tava aprendendo a fazer eu desscobri algumas coisas legais, essa eu sei que nunca disse, eu sei fazer vinho e perfume tbm, queijo, meus conhecimentos aleatorios ai, gostasse ? kkkkkkkkk
-### o corno infeliz que tiver a audacia de me dizer que TS ou ts mobile é melhor que java vai ta sujeito a paulada, socos e pontapes, liguagem do satanas. java jamais faria eu ter que baixar 40k de tranqueira pra rodar uma tela de login. java jamais faria uma malvadesa dessa comigo, inferno. 
-### como foi a prova? ainda tenho dificuldade pra falar contigo mas foi bom te ver. 
+### ja é quase bom dia, dorme com os anjos. tive um problema com a entrega de mobile e fiquei ate agora testando e resolvendo. aquele escrito nao era pra voce, era pra abba no meu diarium, deixe de ser curioso. 
+### o que achou do meu cabelo? pra mim ficou bem conceitual kkkkkkkk, to cansadona, vou ficar mais um tempo acordada vendo umas coisas, vou tirar uns instantes pra pequisar requisitos agora. to muito bem hoje nao, to muito triste, na hora que parei pra pesquisar sobre o roubo de dados do fbi vejo a notificaçao do professor com coisa pra resolver. isso e outras coisinhas. va dormir tranquilo va, eu vou ler umas coisas. 
+### boa madrugada leo
 > *"Escrevendo poesias em código para um rapaz que finge que nem vê."* 💘
 
 ---
