@@ -1,6 +1,5 @@
-### ja é quase bom dia, dorme com os anjos. tive um problema com a entrega de mobile e fiquei ate agora testando e resolvendo. aquele escrito nao era pra voce, era pra abba no meu diarium, deixe de ser curioso. 
-### o que achou do meu cabelo? pra mim ficou bem conceitual kkkkkkkk, to cansadona, vou ficar mais um tempo acordada vendo umas coisas, vou tirar uns instantes pra pequisar requisitos agora. to muito bem hoje nao, to muito triste, na hora que parei pra pesquisar sobre o roubo de dados do fbi vejo a notificaçao do professor com coisa pra resolver. isso e outras coisinhas. va dormir tranquilo va, eu vou ler umas coisas. 
-### boa madrugada leo
+### uma duvida real e honesta, que eu venho querendo perguntar faz um tempo, naquela epoca que tu nao conseguia receber um abraço meu, tu pretendia me comer como exatamente com essa coragem toda de se aproximar de mim, so por curiosidade
+### segundamente bom dia depois dessa pedrada, quer dizer, dia so pra tu, bom sou eu , o dia é so um detalhe
 > *"Escrevendo poesias em código para um rapaz que finge que nem vê."* 💘
 
 ---
