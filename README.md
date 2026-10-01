@@ -1,4 +1,4 @@
-### uma duvida real e honesta, que eu venho querendo perguntar faz um tempo, naquela epoca que tu nao conseguia receber um abraço meu, tu pretendia me comer como exatamente com essa coragem toda de se aproximar de mim, so por curiosidade
+### inclusive , acho que esqueci de dizer ontem, obrigado pelo cookie leo
 ### segundamente bom dia depois dessa pedrada, quer dizer, dia so pra tu, bom sou eu , o dia é so um detalhe
 ### ( falo em tom de brincadeira nao pra te irritar é divertido ver tuas reaçoes) 
 > *"Escrevendo poesias em código para um rapaz que finge que nem vê."* 💘
