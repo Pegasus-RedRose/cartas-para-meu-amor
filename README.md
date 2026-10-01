@@ -1,6 +1,7 @@
-### inclusive , acho que esqueci de dizer ontem, obrigado pelo cookie leo
-### segundamente bom dia depois dessa pedrada, quer dizer, dia so pra tu, bom sou eu , o dia é so um detalhe
-### ( falo em tom de brincadeira nao pra te irritar é divertido ver tuas reaçoes) 
+### quer minha senha tambem curioso safado? 
+### -_- tu ja sabia que anjinho era ele, foi curiar ainda pq ? continua assim pra tu ver uma coisa visse. se eu trair vai ser com o claudinho(claud), gemini ou gpt, se quiseres eu mostro a senha e voce curia o que quiser, nao mechendo em nada eu nao ligo ( serio, nao murde a ordem de nada) tu o que eu quiser saber eu encontro. inclusive se sente invadido por isso? otimo, eu tambem me sentia com tu lembrando do que nao devia estamos quites nisso.
+### curiosidade matou o gato querido, cuidado eim, tem coisa pior que gaia na vida. 
+### da proxima pergunte.
 > *"Escrevendo poesias em código para um rapaz que finge que nem vê."* 💘
 
 ---
