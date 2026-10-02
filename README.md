@@ -6,48 +6,5 @@
 ### inclusive, pra eu ser infiel eu teria que ser OFICIALMENTE sua namorada nao acha homem inseguro? vai jogando a certa fora por ter se envolvido com erradas demais visse. eu quero alguem pra chegar e dizer é meu namorado, nao tolero que mecha nas minhas coisas assim nao, deixe eu mecher nas suas pra ficar justo, quer curiar o dos outros mas nao quer mostrar o seu. tarot nao conta. eu quero que voce fale, pelo simples motivo que voce ja sabe que gosto de voce, sabe que tipo de pessoa eu sou e ainda fica desconfiando de mim mesmo nao tendo posto sequer um anel(sequer uma CARTINHA FISICA SEU SEM VERGONHA) no meu dedo pra ta cobrando isso, ta achando que sou as raparigas que tu andava caralho? 
 ### vença essas suas insegurança viu, to tao boazinha, fico sofrendo bully defendendo voce, to estressada, de tpm, me fudendo mais que puta de estudar e o caba vem achar que to traindo, EU VOU TA TIRANDO TEMPO DE ONDE FDP? DO CU É? pude nem instalar meu kali linux direito pq tava sem tempo, tu tem a pior reputaçao que essa faculdade ja viu, eu nao ligo pra isso pq realmente gosto de voce como pessoa mas tenho limites, minhas amigas é tudo terminantemente contra eu gastar meu tempo contigo mas eu gosto realmente de tu, to cheia de trabalho pra fazer pq eu que mando nessa porra nesse caralho, e ainda me vem o arrombado me trazer mais estresse achando que to traindo ao inves de me tratar como um demonio ( me dando oferendas, flores, chocolate me levando pra sair, ja nao passa tempo comigo) ainda desconfia como eu passo meu tempo, fresco.
 ### " ain mas ta sendo dramatica" minha chibata. se quiser lhe dou um soco na barriga de pre prova, busino no seu ouvido pra chegar no meu nivel de estresse pra voce ver o odio que to segurando pra fazer essas provas. eu quase surtando de burnout e o caba achando que to com outro, antes tivesse, um que me leva pra sair e desestressar nesse carai e que fala abertamente sem ter vergonha que gosta de mim e que namora comigo ou ta saindo comigo. esse carai de buceta, to sem paciencia pra voce viu, faça graça de novo.
-> *"Escrevendo poesias em código para um rapaz que finge que nem vê."* 💘
 
----
-
-### 📜 Sobre o Projeto
-
-Este repositório é um arquivo vivo de todas as cartas, versos e declarações de amor cuidadosamente estilizados em HTML e CSS para um rapaz muito especial, em muitos aspectos rsrs. 
-
-Ele recebe as cartas? **Recebe.**  
-Ele responde alguma coisa? **Finge demência e passa direto.**  
-
-Mas o código valida sem erros no W3C, o layout é responsivo e o sentimento é 100% autêntico. Se ele finge que não vê no chat, o navegador pelo menos me dá um `200 OK`.
-
----
-
-### 📊 Painel de Métricas do Vácuo
-
-| Métrica | Valor Atual |
-| :--- | :--- |
-| ✉️ **Cartas Enviadas** | `42` |
-| 📬 **Respostas Dele** | `0` *(finge que é cego)* |
-| 🙈 **Nível de Fingimento Dele** | `100%` |
-| 💖 **Nível de Afeto** | `Infinity` |
-| 🤡 **Nível de Palhaçada** | `Over 9000` |
-
----
-
-### 🛠️ Tech Stack & Ingredientes
-
-* 🧱 **HTML5:** Para dar estrutura a pensamentos que não têm pé nem cabeça.
-* 🎨 **CSS3:** Para colorir sentimentos que a cegueira seletiva dele insiste em ignorar.
-* ☕ **Café da Madrugada:** A força-motriz por trás do `<p>` mais dramático do dia.
-* 💔 **Git:** Para dar `commit` na esperança e `push` direto pro coração dele (que tá em `read-only`).
-
----
-
-### 📁 Arquivo das Ilusões (`/cartas`)
-
-* 📄 `carta-01-hover-do-amor.html` — Passa o mouse por cima e descobre um trouxa fofo.
-* 📄 `poesia-das-03am.html` — Criada no auge da carência noturna.
-* 📄 `desculpe-o-incomodo.html` — Para quando a consciência pesa, mas o amor fala mais alto.
-* 📄 `ele-finge-que-nao-ve.html` — A landing page oficial do amor não correspondido.
-
----
 
