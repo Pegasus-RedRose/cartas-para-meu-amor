@@ -2,3 +2,4 @@
 ### perdao, achei que iria demorar mais tempo pra investigar tudo mas uma madrugada foi suficiente, vou pra praia hj, aline nem sabe, mas vou fazer o chicote cantar pra ela tbm essa semana, vou usar o final de semana pra planejar isso, hihihi, essa vai ser divertido. 
 ### gosto de tu visse, se preocupa comigo n, eu sou profissional em me meter em problema mas as regras estao do meu lado. o triste é so minha conta que vai ficar ate segunda sem uso.
 ### dormiu bem princeso? 
+## gosto de tu, tinha ate esquecido, tu vai ver eu bem beautiful em meu biquini so aguarde hehe
