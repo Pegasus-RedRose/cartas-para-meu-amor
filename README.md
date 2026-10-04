@@ -1,15 +1,23 @@
 ### ainda fico incredula que tu é timido, na minha cabeça nao faz muito sentido, vou mais devagar, tenho dificuldade acompanhando vosso ritmo, desculpe ( inclusive, pretendo quando eu tiver inspirada lhe roubar um beijinho, beijinho esse que provavelmente vai ser reduzido a abraço em meio caminho pq nao quero infartar, as vezes a insonia da a coragem que faltava)
 ### bom dia leo, dormiu bem?
 
-
 ---
 # este perfil estara sujeito a manutençao hoje a qualquer momento e sem aviso previo!!!
 
 ---
 # 💘 Projeto: Poeta Apaixonado em Código 📜
 
-> *"O meu amor é tão amplo quanto o mar, e tão profundo quanto ele; quanto mais te dou, mais tenho, pois ambos são infinitos."*  
-> — **William Shakespeare**, *Romeu e Julieta* (Ato II, Cena II)
+<table>
+  <tr>
+    <td valign="middle">
+      <p><em>"O meu amor é tão amplo quanto o mar, e tão profundo quanto ele; quanto mais te dou, mais tenho, pois ambos são infinitos."</em></p>
+      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;— <em><strong>William Shakespeare</strong></em>, <em>Romeu e Julieta (Ato II, Cena II)</em></p>
+    </td>
+    <td align="center" valign="middle" width="180">
+      <img src="./Leo.jpg" alt="Leo com óculos" width="150" style="border-radius: 10px;" />
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -32,13 +40,11 @@ Mas cada commit enviado é uma nova linha do coração registrada em pixels. O c
 
 | Métrica | Valor Atual |
 | :--- | :--- |
-| ✉️ **Cartas Enviadas (Commits)** | ![Cartas Enviadas](https://img.shields.io/github/commits-since/Pegasus-RedRose/cartas-para-meu-amor/HEAD?color=ff69b4&label=Cartas%20Registradas&style=flat-square) |
+| ✉️ **Cartas Enviadas (Commits)** | ![Cartas Enviadas](https://img.shields.io/github/commits-since/Pegasus-RedRose/cartas-para-meu-amor/0.0.0?color=ff69b4&label=Cartas%20Registradas&style=flat-square) |
 | 📬 **Respostas Dele** | `0` *(especialista em ignorar notificações)* |
 | 🙈 **Nível de Fingimento Dele** | `100%` *(nível profissional)* |
 | 💖 **Nível de Afeto** | `Infinity` |
 | 🤡 **Nível de Palhaçada Lírica** | `Over 9000` |
-
-> 💡 *Dica de Configuração: No campo das **Cartas Enviadas**, basta substituir `SEU_USUARIO/SEU_REPOSITORIO` no link pelo seu nome de usuário no GitHub e o nome deste repositório. O marcador irá contar e atualizar automaticamente o número de cartas a cada novo `git commit` que você fizer!*
 
 ---
 
@@ -52,7 +58,7 @@ Mas cada commit enviado é uma nova linha do coração registrada em pixels. O c
   * Tratamento de exceções com `try/catch` para suportar o impacto das mensagens sem resposta no console do coração.
 * ☕ **Café da Madrugada (A Solução para a Insônia Lírica):** O combustível poético essencial por trás dos versos compilados às 3h47 da manhã, misturando cafeína, melancolia e esperança.
 * 💔 **Git & GitHub (Controle de Versão do Sentimento):** Para dar `git commit -m "mais um verso para você"` a cada nova carta e um `git push origin main` direto pro coração dele — que infelizmente continua configurado em modo `read-only` e sem aceitar Pull Requests( eu abro PR  e espero, e nada ainda).
-* 🔮 **W3C Standards (Validação Amorosa Purista):** Garantindo que, mesmo que o amor não seja correspondido no mundo real, a sintaxe poética e a arquitetura do sentimento permaneçam 100% impecáveis e sem nenhum aviso de erro.
+* 🔮 **W3C Standards (Validação Amorosa Purista):** Garantindo que, mesmo que o amor não seja correspondido no mundo real, a sintaxe poética e a arquitetura do sentimento permanecem 100% impecáveis e sem nenhum aviso de erro.
 
 ---
 
@@ -63,5 +69,4 @@ Mas cada commit enviado é uma nova linha do coração registrada em pixels. O c
 * 📄 `desculpe-o-incomodo.html` — Para quando a consciência pesa, mas o amor fala mais alto.
 * 📄 `ele-finge-que-nao-ve.html` — A landing page oficial do amor não correspondido.
 
----
 ---
