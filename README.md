@@ -21,7 +21,7 @@
       &nbsp;&nbsp;&nbsp;&nbsp;— <i><b>William Shakespeare</b>, Romeu e Julieta (Ato II, Cena II)</i>
     </td>
     <td width="30%" align="center" valign="middle">
-      <img src="Leo.jpg" alt="Leo" width="150" style="border-radius: 10px;">
+      <img src="Leo.jpg" alt="Leo" width="400" style="border-radius: 10px;">
     </td>
   </tr>
 </table>
