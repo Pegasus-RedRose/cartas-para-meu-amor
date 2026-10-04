@@ -16,11 +16,11 @@
 
 <table border="0">
   <tr>
-    <td width="70%" valign="middle">
+    <td width="60%" valign="middle">
       <i>"O meu amor é tão amplo quanto o mar, e tão profundo quanto ele; quanto mais te dou, mais tenho, pois ambos são infinitos."</i><br><br>
       &nbsp;&nbsp;&nbsp;&nbsp;— <i><b>William Shakespeare</b>, Romeu e Julieta (Ato II, Cena II)</i>
     </td>
-    <td width="30%" align="center" valign="middle">
+    <td width="40%" align="center" valign="middle">
       <img src="Leo.jpg" alt="Leo" width="400" style="border-radius: 10px;">
     </td>
   </tr>
@@ -52,8 +52,6 @@ Mas cada commit enviado é uma nova linha do coração registrada em pixels. O c
 | 🙈 **Nível de Fingimento Dele** | `100%` *(nível profissional)* |
 | 💖 **Nível de Afeto** | `Infinity` |
 | 🤡 **Nível de Palhaçada Lírica** | `Over 9000` |
-
-> 💡 *Nota: O contador de cartas agora utiliza o marcador histórico total (`/commit-activity/t/`), contabilizando todos os commits criados desde o início do projeto. Lembre-se apenas de verificar se o repositório está **Público** nas configurações do GitHub.*
 
 ---
 
