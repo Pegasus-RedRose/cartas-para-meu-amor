@@ -89,8 +89,17 @@ Mas cada commit enviado é uma nova linha do coração registrada em pixels. O c
 <table>
   <tr>
     <td valign="middle">
-      <p><em>"O meu amor é tão amplo quanto o mar, e tão profundo quanto ele; quanto mais te dou, mais tenho, pois ambos são infinitos."</em></p>
-      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;— <em><strong>William Shakespeare</strong></em>, <em>Romeu e Julieta (Ato II, Cena II)</em></p>
+      <p><em>"Eu vejo você longe e quero você perto<br>
+              Fica na minha sombra, eu posso ser teu rastro<br>
+              Não quero tu na linha, Vivo, morto ou Claro<br>
+              Eu quero tu na minha boca<br>
+              E a minha boca quer você<br>
+              Quer você<br>
+              Diga pra mim que é real<br>
+              Que eu te prometo meu melhor<br>
+              Fala pra mim o que eu quero ouvir<br>
+              Que tu sentiu o que eu senti"</em></p>
+      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;— <em><strong>Lisboa,Canção de Anavitória e Lenine</strong></em>, <em>Romeu e Julieta (Ato II, Cena II)</em></p>
     </td>
     <td align="center" valign="middle" width="400">
       <img src="./leo2.jpg" alt="Leo com óculos e chapeu" width="360" style="border-radius: 10px;" />
