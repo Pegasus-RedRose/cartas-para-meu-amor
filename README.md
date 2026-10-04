@@ -99,7 +99,7 @@ Mas cada commit enviado é uma nova linha do coração registrada em pixels. O c
               Que eu te prometo meu melhor<br>
               Fala pra mim o que eu quero ouvir<br>
               Que tu sentiu o que eu senti"</em></p>
-      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;— <em><strong>Lisboa,Canção de Anavitória e Lenine</strong></em>, <em>Romeu e Julieta (Ato II, Cena II)</em></p>
+      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;— <em><strong>Lisboa,Canção de Anavitória e Lenine</strong></em></p>
     </td>
     <td align="center" valign="middle" width="400">
       <img src="./leo2.jpg" alt="Leo com óculos e chapeu" width="360" style="border-radius: 10px;" />
