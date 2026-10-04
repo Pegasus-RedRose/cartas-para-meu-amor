@@ -1,11 +1,9 @@
 ### ainda fico incredula que tu é timido, na minha cabeça nao faz muito sentido, vou mais devagar, tenho dificuldade acompanhando vosso ritmo, desculpe ( inclusive, pretendo quando eu tiver inspirada lhe roubar um beijinho, beijinho esse que provavelmente vai ser reduzido a abraço em meio caminho pq nao quero infartar, as vezes a insonia da a coragem que faltava)
-### bom dia leo, dormiu bem?
+### leo, por um acaso tu fica ansioso pra me responder quando sou muito direta e por isso que tu some? ( eu to tentando achar o limite pra conseguir conversar contigo sem te deixar nervoso mas eu me solto, inclusive eu te acho fofinho mas é meu jeitinho de dizer que voce é importante, eu tenho vontade de guardar o que me é importante mas nao pode colocar amorzinho num pote, eu costumo responder no automatico coisas que magoa ai falo menos, se a pessoa tem minha personalidade fofa entao ela vai ter meu jeito pequeno diabrete de agir, meu best chama isso de criança atentada mas perde o charme chamar assim)
+
 
 ---
-# este perfil estara sujeito a manutençao hoje a qualquer momento e sem aviso previo!!!### ainda fico incredula que tu é timido, na minha cabeça nao faz muito sentido, vou mais devagar, tenho dificuldade acompanhando vosso ritmo, desculpe ( inclusive, pretendo quando eu tiver inspirada lhe roubar um beijinho, beijinho esse que provavelmente vai ser reduzido a abraço em meio caminho pq nao quero infartar, as vezes a insonia da a coragem que faltava)
-
-### bom dia leo, dormiu bem?
-
+### e nesse path de atualização temos de volta o read me fofo, foram adicionados tambem imagens que me fizeram lembrar como eu vejo meu leo( tive a impressao por um momento que eu tava fazendo bullying contigo, tu mo serio e eu te achando mo fofinho, e pelo que sei, essa tambem é tua personalidade premium num é n?), tambem foram adicionado um texto romantico, achei romeu e julieta conceitual ja que na minha perspectiva tu nao ia com a minha cara antes, um enemies to lovers, nao precisa ficar nervoso, eu nao mordo,(mas se voce quiser... ai eu mordo sim ^-^), tambem adicionei um marcador de commits 
 ---
 
 # este perfil estara sujeito a manutençao hoje a qualquer momento e sem aviso previo!!!
