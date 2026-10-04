@@ -100,12 +100,3 @@ Mas cada commit enviado é uma nova linha do coração registrada em pixels. O c
 </table>
 
 ---
-
-
-
-* 📄 `carta-01-hover-do-amor.html` — Passa o mouse por cima e descobre um poeta fofo e iludido.
-* 📄 `poesia-das-03am.html` — Criada no auge da carência e da insônia noturna.
-* 📄 `desculpe-o-incomodo.html` — Para quando a consciência pesa, mas o amor fala mais alto.
-* 📄 `ele-finge-que-nao-ve.html` — A landing page oficial do amor não correspondido.
-
----
