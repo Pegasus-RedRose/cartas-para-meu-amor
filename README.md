@@ -32,7 +32,7 @@ Mas cada commit enviado é uma nova linha do coração registrada em pixels. O c
 
 | Métrica | Valor Atual |
 | :--- | :--- |
-| ✉️ **Cartas Enviadas (Commits)** | ![Cartas Enviadas](https://img.shields.io/github/commits-since/PegasusRedRose/cartas-para-meu-amor/HEAD?color=ff69b4&label=Cartas%20Registradas&style=flat-square) |
+| ✉️ **Cartas Enviadas (Commits)** | ![Cartas Enviadas](https://img.shields.io/github/commits-since/Pegasus-RedRose/cartas-para-meu-amor/HEAD?color=ff69b4&label=Cartas%20Registradas&style=flat-square) |
 | 📬 **Respostas Dele** | `0` *(especialista em ignorar notificações)* |
 | 🙈 **Nível de Fingimento Dele** | `100%` *(nível profissional)* |
 | 💖 **Nível de Afeto** | `Infinity` |
