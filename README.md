@@ -86,23 +86,23 @@ Mas cada commit enviado é uma nova linha do coração registrada em pixels. O c
 ---
 # 💘 Projeto: Poeta Apaixonado em Código 📜
 
-<table>
+<table border="0">
   <tr>
-    <td valign="middle">
-      <p><em>"Eu vejo você longe e quero você perto<br>
-              Fica na minha sombra, eu posso ser teu rastro<br>
-              Não quero tu na linha, Vivo, morto ou Claro<br>
-              Eu quero tu na minha boca<br>
-              E a minha boca quer você<br>
-              Quer você<br>
-              Diga pra mim que é real<br>
-              Que eu te prometo meu melhor<br>
-              Fala pra mim o que eu quero ouvir<br>
-              Que tu sentiu o que eu senti"</em></p>
-      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;— <em><strong>Lisboa,Canção de Anavitória e Lenine</strong></em></p>
+    <td width="60%" valign="middle">
+      <i>"Eu vejo você longe e quero você perto<br>
+          Fica na minha sombra, eu posso ser teu rastro<br>
+          Não quero tu na linha, Vivo, morto ou Claro<br>
+          Eu quero tu na minha boca<br>
+          E a minha boca quer você<br>
+          Quer você<br>
+          Diga pra mim que é real<br>
+          Que eu te prometo meu melhor<br>
+          Fala pra mim o que eu quero ouvir<br>
+          Que tu sentiu o que eu senti"</i><br><br>
+      &nbsp;&nbsp;&nbsp;&nbsp;— <i><b>Canção de Anavitória e Lenine</b>,Lisboa</i>
     </td>
-    <td align="center" valign="middle" width="400">
-      <img src="./leo2.jpg" alt="Leo com óculos e chapeu" width="360" style="border-radius: 10px;" />
+    <td width="40%" align="center" valign="middle">
+      <img src="leo2.jpg" alt="Leo" width="400" style="border-radius: 10px;">
     </td>
   </tr>
 </table>
