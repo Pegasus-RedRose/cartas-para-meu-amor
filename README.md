@@ -13,8 +13,8 @@
       <p><em>"O meu amor é tão amplo quanto o mar, e tão profundo quanto ele; quanto mais te dou, mais tenho, pois ambos são infinitos."</em></p>
       <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;— <em><strong>William Shakespeare</strong></em>, <em>Romeu e Julieta (Ato II, Cena II)</em></p>
     </td>
-    <td align="center" valign="middle" width="240">
-      <img src="./Leo.jpg" alt="Leo com óculos" width="210" style="border-radius: 10px;" />
+    <td align="center" valign="middle" width="400">
+      <img src="./Leo.jpg" alt="Leo com óculos" width="360" style="border-radius: 10px;" />
     </td>
   </tr>
 </table>
