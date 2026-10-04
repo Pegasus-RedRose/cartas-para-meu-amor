@@ -88,7 +88,7 @@ Mas cada commit enviado é uma nova linha do coração registrada em pixels. O c
 
 <table border="0">
   <tr>
-    <td width="60%" valign="middle">
+    <td width="80%" valign="middle">
       <i>"Eu vejo você longe e quero você perto<br>
           Fica na minha sombra, eu posso ser teu rastro<br>
           Não quero tu na linha, Vivo, morto ou Claro<br>
