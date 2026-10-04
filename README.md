@@ -58,13 +58,18 @@ Mas cada commit enviado é uma nova linha do coração registrada em pixels. O c
 ### 🛠️ Tech Stack & Ingredientes do Poeta
 
 * 🧱 **HTML5 (Estrutura Semântica do Afeto):** Utilizado para dar significado e ordem a sentimentos que a lógica não consegue explicar. Cada `<section>` guarda uma memória, cada `<article>` um suspiro e cada `<p>` uma declaração sincera.
+  '
 * 🎨 **CSS3 (Estilização da Paixão & Transições Suaves):** Animações com `@keyframes` para simular o batimento cardíaco acelerado, `flexbox` e `grid` para tentar alinhar nossos destinos no centro da tela e `gradients` em tons suaves de rosa para cobrir a frieza da indiferença dele.
+  '
 * 📜 **JavaScript (Lógica Emocional & Event Listeners):**
   * `addEventListener('onClick', confessarAmor)` na esperança de capturar qualquer interação dele;
   * Promessas (`Promises`) que continuam em estado `Pending...` aguardando uma resposta tímida e boba;
   * Tratamento de exceções com `try/catch` para suportar o impacto das mensagens sem resposta no console do coração.
+ '
 * ☕ **Café da Madrugada (A Solução para a Insônia Lírica):** O combustível poético essencial por trás dos versos compilados às 3h47 da manhã, misturando cafeína, melancolia e esperança.
+  '
 * 💔 **Git & GitHub (Controle de Versão do Sentimento):** Para dar `git commit -m "mais um verso para você"` a cada nova carta e um `git push origin main` direto pro coração dele — que infelizmente continua configurado em modo `read-only` e sem aceitar Pull Requests (eu abro PR e espero, e nada ainda).
+  '
 * 🔮 **W3C Standards (Validação Amorosa Purista):** Garantindo que, mesmo que o amor não seja correspondido no mundo real, a sintaxe poética e a arquitetura do sentimento permaneçam 100% impecáveis e sem nenhum aviso de erro.
 
 ---
