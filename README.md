@@ -88,7 +88,7 @@ Mas cada commit enviado é uma nova linha do coração registrada em pixels. O c
 
 <table border="0">
   <tr>
-    <td width="80%" valign="middle">
+    <td width="50%" valign="middle">
       <i>"Eu vejo você longe e quero você perto<br>
           Fica na minha sombra, eu posso ser teu rastro<br>
           Não quero tu na linha, Vivo, morto ou Claro<br>
@@ -101,7 +101,7 @@ Mas cada commit enviado é uma nova linha do coração registrada em pixels. O c
           Que tu sentiu o que eu senti"</i><br><br>
       &nbsp;&nbsp;&nbsp;&nbsp;— <i><b>Canção de Anavitória e Lenine</b>,Lisboa</i>
     </td>
-    <td width="40%" align="center" valign="middle">
+    <td width="50%" align="center" valign="middle">
       <img src="leo2.jpg" alt="Leo" width="400" style="border-radius: 10px;">
     </td>
   </tr>
