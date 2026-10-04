@@ -93,7 +93,7 @@ Mas cada commit enviado é uma nova linha do coração registrada em pixels. O c
       <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;— <em><strong>William Shakespeare</strong></em>, <em>Romeu e Julieta (Ato II, Cena II)</em></p>
     </td>
     <td align="center" valign="middle" width="400">
-      <img src="./Leo2.jpg" alt="Leo com óculos e chapeu" width="360" style="border-radius: 10px;" />
+      <img src="./leo2.jpg" alt="Leo com óculos e chapeu" width="360" style="border-radius: 10px;" />
     </td>
   </tr>
 </table>
