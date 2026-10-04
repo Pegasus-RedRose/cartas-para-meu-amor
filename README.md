@@ -84,7 +84,7 @@ Mas cada commit enviado é uma nova linha do coração registrada em pixels. O c
 ---
 
 ---
-# 💘 Projeto: Poeta Apaixonado em Código 📜
+# 💘 O menestrel pensamentos📜
 
 <table border="0">
   <tr>
