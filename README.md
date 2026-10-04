@@ -1,14 +1,8 @@
-### ainda fico incredula que tu é timido, na minha cabeça nao faz muito sentido, vou mais devagar, tenho dificuldade acompanhando vosso ritmo, desculpe ( inclusive, pretendo quando eu tiver inspirada lhe roubar um beijinho, beijinho esse que provavelmente vai ser reduzido a abraço em meio caminho pq nao quero infartar, as vezes a insonia da a coragem que faltava)
-### leo, por um acaso tu fica ansioso pra me responder quando sou muito direta e por isso que tu some? ( eu to tentando achar o limite pra conseguir conversar contigo sem te deixar nervoso mas eu me solto, inclusive eu te acho fofinho mas é meu jeitinho de dizer que voce é importante, eu tenho vontade de guardar o que me é importante mas nao pode colocar amorzinho num pote, eu costumo responder no automatico coisas que magoa ai falo menos, se a pessoa tem minha personalidade fofa entao ela vai ter meu jeito pequeno diabrete de agir, meu best chama isso de criança atentada mas perde o charme chamar assim)
+### fiu fiu, lindissimo nessa foto nova meu gostoso, vossa beleza é perigosa ao meu coração, pa tu S2 
 
 
 ---
-### e nesse path de atualização temos de volta o read me fofo, foram adicionados tambem imagens que me fizeram lembrar como eu vejo meu leo( tive a impressao por um momento que eu tava fazendo bullying contigo, tu mo serio e eu te achando mo fofinho, e pelo que sei, essa tambem é tua personalidade premium num é n?), tambem foram adicionado um texto romantico, achei romeu e julieta conceitual ja que na minha perspectiva tu nao ia com a minha cara antes, um enemies to lovers, nao precisa ficar nervoso, eu nao mordo,(mas se voce quiser... ai eu mordo sim ^-^), tambem adicionei um marcador de commits 
----
 
-# este perfil estara sujeito a manutençao hoje a qualquer momento e sem aviso previo!!!
-
----
 
 # 💘 Projeto: Poeta Apaixonado em Código 📜
 
@@ -47,7 +41,7 @@ Mas cada commit enviado é uma nova linha do coração registrada em pixels. O c
 | :--- | :--- |
 | ✉️ **Cartas Enviadas (Commits)** | ![Cartas Enviadas](https://img.shields.io/github/commit-activity/t/Pegasus-RedRose/cartas-para-meu-amor?color=ff69b4&label=Cartas%20Registradas&style=flat-square) |
 | 📬 **Respostas Dele** | `0` *(especialista em ignorar notificações)* |
-| 🙈 **Nível de Fingimento Dele** | `100%` *(nível profissional)* |
+| 🙈 **Nível de Fingimento Dele** | `99%` *(nível profissional)* |
 | 💖 **Nível de Afeto** | `Infinity` |
 | 🤡 **Nível de Palhaçada Lírica** | `Over 9000` |
 
@@ -64,7 +58,7 @@ Mas cada commit enviado é uma nova linha do coração registrada em pixels. O c
   * Promessas (`Promises`) que continuam em estado `Pending...` aguardando uma resposta tímida e boba;
   * Tratamento de exceções com `try/catch` para suportar o impacto das mensagens sem resposta no console do coração.
  
-* ☕ **Café da Madrugada (A Solução para a Insônia Lírica):** O combustível poético essencial por trás dos versos compilados às 3h47 da manhã, misturando cafeína, melancolia e esperança.
+* ☕ **Café da Madrugada (A Solução para a Insônia criativa):** O combustível poético essencial por trás dos versos compilados às 3h47 da manhã, misturando cafeína, melancolia e esperança.
   
 * 💔 **Git & GitHub (Controle de Versão do Sentimento):** Para dar `git commit -m "mais um verso para você"` a cada nova carta e um `git push origin main` direto pro coração dele — que infelizmente continua configurado em modo `read-only` e sem aceitar Pull Requests (eu abro PR e espero, e nada ainda).
   
