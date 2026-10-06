@@ -1,12 +1,12 @@
 
-   [Carta 1: O Julgamento] ------> 1. Encarar a realidade: Parar de se fingir de bobo e admitir o erro.
-    [Carta 2: O Eremita] ---------> 2. Isolar-se para refletir: Fazer terapia e se afastar de velhas dinamicas que nao fazem sentido.
-    [Carta 3: 10 de Espadas (Inv)] -> 3. Sair do papel de vítima: Parar de chorar e aceitar as consequências.
-    [Carta 4: Rei de Copas] -------> 4. Amadurecer o emocional: Aprender a receber e dar afeto sem medo.
-    [Carta 5: A Temperança] ------> 5. Buscar equilíbrio: Controlar a ansiedade e a impulsividade.
-    [Carta 6: 4 de Espadas] ------> 6. Silenciar o ego: Engolir o orgulho e parar de querer estar por cima.
-    [Carta 7: 6 de Espadas] ------> 7. Mudar de rumo: Deixar o padrão antigo para trás de vez.
-    [Carta 8: O Mago (Inv)] ------> 8. O alerta: Se ele tentar usar manipulação de novo, vai falhar.
+ ###  [Carta 1: O Julgamento] ------> 1. Encarar a realidade: Parar de se fingir de bobo e admitir o erro.
+  ###  [Carta 2: O Eremita] ---------> 2. Isolar-se para refletir: Fazer terapia e se afastar de velhas dinamicas que nao fazem sentido.
+   ### [Carta 3: 10 de Espadas (Inv)] -> 3. Sair do papel de vítima: Parar de chorar e aceitar as consequências.
+   ### [Carta 4: Rei de Copas] -------> 4. Amadurecer o emocional: Aprender a receber e dar afeto sem medo.
+  ###  [Carta 5: A Temperança] ------> 5. Buscar equilíbrio: Controlar a ansiedade e a impulsividade.
+ ###   [Carta 6: 4 de Espadas] ------> 6. Silenciar o ego: Engolir o orgulho e parar de querer estar por cima.
+###    [Carta 7: 6 de Espadas] ------> 7. Mudar de rumo: Deixar o padrão antigo para trás de vez.
+###    [Carta 8: O Mago (Inv)] ------> 8. O alerta: Se ele tentar usar manipulação de novo, vai falhar.
 
 
 ### se livre das tralhas de todas elas. nao é por mim icaro, faça uma escolha por si mesmo cara. eu cansei, de verdade cansei. pare de tentar preencher um vazio com alguem, isso so vai te fazer ficar refem dos humores da pessoa. aprenda a lidar com afeto, comece praticando em casa, de um beijo na testa da sua mae, chegue pra ela e de um abraço, fale que lembrou dela, com o tempo vai desarmar os espinhos dela, se quer um metodo mais tranquilo ache uma flor e de a ela, elogie ela aleatoriamente, se começa a aprender como tratar uma mulher em casa. tu tem familia, tem irmaos, tem amigos, voce nao ta sozinho, pare de agir como se precisasse guardar uma lembrança de toda menina que fez o minimo por voce, as vezes nem o minimo sendo sincera. 
